@@ -8,5 +8,4 @@ if fac == "y":
   else:
     print("you got tails")
 else:
-  print('"Why you gotta be so rude\n-magic!"')
   quit()
