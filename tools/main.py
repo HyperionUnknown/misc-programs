@@ -1,12 +1,11 @@
 while 1:
-  tech = input("===========MENU========= \n 1. to access calculator app \n 2. spin 'em dreidels\n 3. coins doing backflips \n 4. gamble all your money away with our cutting edge lottery machine\n 5. the epitome of every childrens game: the spinner, a revoluntionary piece of technology created by earths greatet minds to educate our youth")
-  if tech == "1":
+  menu = input("===========MENU========= \n 1. calculator \n 2. dreidel\n 3. coin flip \n 4. lottery\n 5. spinner\n
     import calculator
-  if tech == "2":
+  if menu == "2":
     import dreidel
-  if tech == '3':
+  if menu == '3':
     import flip_a_coin
-  if tech == '4':
+  if menu == '4':
     import lottery
-  if tech == '5':
+  if menu == '5':
     import spinner
